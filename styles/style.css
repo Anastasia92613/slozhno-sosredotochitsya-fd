@@ -2,10 +2,11 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--background-color);
   background-image: var(--cover-image);
-  background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -111,9 +112,8 @@
 }
 
 .content {
-  padding: 0 10px;
+  padding: 0 10px 50px 10px;
   box-sizing: border-box;
-  margin-block-end: 50px;
   background-color: var(--background-color);
 }
 
@@ -180,6 +180,7 @@
   gap: 10px;
   box-sizing: border-box;
   max-width: fit-content;
+  background-color: var(--background-color);
 }
 
 .gallery__item {
@@ -258,8 +259,7 @@
   }
 
   .content {
-    padding: 0 20px;
-    margin-block-end: 80px;
+    padding: 0 20px 80px 20px;
   }
 
   .content-section {
@@ -349,7 +349,11 @@
     grid-row: 1/2;
     padding: 0;
     justify-self: center;
-    padding-left: 46px;
+    padding-left: 44px;
+  }
+
+  .header__theme-menu-list {
+    gap: 10px;
   }
 
   .decor-top {
@@ -369,6 +373,10 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+  }
+
+  .header__theme-menu-button {
+    padding: 3px 13px;
   }
 
   .header__intro-title {
