@@ -39,16 +39,16 @@
   outline: 1px solid rgb(50, 49, 45, 40%);
 }
 
-.theme-light .header__decor{
+.theme-light .header__decor {
   display: none;
 }
 
-.theme-light .decor-top {
+.theme-light .decor::before  {
   border-right: 1px solid var(--base-color);
   border-top: 1px solid var(--base-color);
 }
 
-.theme-light .decor-bottom {
+.theme-light .decor::after {
   border-left: 1px solid var(--base-color);
   border-bottom: 1px solid var(--base-color);
 }
