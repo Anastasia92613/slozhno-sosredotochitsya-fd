@@ -26,7 +26,7 @@
 }
 
 .header__decor {
-  margin-block-end: 37px;
+  margin-block-end: 41px;
 }
 
 .decor-top {
@@ -52,24 +52,24 @@
 
 .header__theme-menu {
   justify-items: end;
-  margin-block-end: 65px;
+  margin-block-end: 68px;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 
 .header__theme-menu-button {
   background-color: transparent;
-  padding: 1px 13px;
+  padding: 2px 13px;
   box-sizing: border-box;
   border: none;
   color: var(--accent-color);
   text-transform: lowercase;
   font-size: var(--default-font-size);
-  line-height: 24px;
+  line-height: 18px;
   cursor: pointer;
 }
 
@@ -93,7 +93,7 @@
 .header__intro-title {
   box-sizing: border-box;
   text-shadow: 4px 4px var(--accent-color);
-  margin-block-end: 57px;
+  margin-block-end: 54px;
 }
 
 .title-decor {
