@@ -39,7 +39,7 @@
   outline: 1px solid rgb(50, 49, 45, 40%);
 }
 
-.theme-light .header__decor::before {
+.theme-light .header__decor{
   display: none;
 }
 
