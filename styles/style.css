@@ -13,7 +13,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: min-content 1fr ;
+  grid-template-rows: min-content 1fr;
   max-height: 100vh;
   min-height: 668px;
   margin-block-end: 40px;
@@ -23,14 +23,14 @@
 }
 
 .decor::before {
- position: absolute;
- content: "";
- top: 10px;
- right: 10px;
- height: 25px;
- width: 25px;
- border-right: 1px solid var(--accent-color);
- border-top: 1px solid var(--accent-color);
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 10px;
+  height: 25px;
+  width: 25px;
+  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--accent-color);
 }
 
 .decor::after {
@@ -56,15 +56,13 @@
   top: 10px;
 }
 
-
 .header__decor::after {
   content: "";
   width: 9px;
   height: 9px;
   background-color: var(--accent-color);
- border-radius: 50%;
- box-shadow: 0 0 5px 2px var(--accent-color);
-  
+  border-radius: 50%;
+  box-shadow: 0 0 5px 2px var(--accent-color);
 }
 
 .header__theme-menu {
