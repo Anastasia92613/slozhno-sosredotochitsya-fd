@@ -201,7 +201,6 @@
   grid-template-columns: 1fr;
   align-content: space-between;
   padding: 0 10px 10px 10px;
-  background-color: var(--background-color);
 }
 
 .footer-tile {
