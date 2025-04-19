@@ -354,6 +354,7 @@
 
   .header__theme-menu-list {
     gap: 10px;
+    flex-direction: row;
   }
 
   .decor-top {
@@ -369,10 +370,6 @@
   .decor-bottom {
     grid-row: 3/4;
     grid-column: 1/-1;
-  }
-
-  .header__theme-menu-list {
-    flex-direction: row;
   }
 
   .header__theme-menu-button {
