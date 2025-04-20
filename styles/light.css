@@ -6,129 +6,38 @@
 
 :root.theme-light {
   --background-color: #fff1f7;
+  --color-menu: #353430;
+  --color-hover-menu: rgb(50, 49, 45, 40%);
   --base-color: #353430;
+  --color-heading:#353430;
   --accent-color: #ff8dcb;
   --title-decor: #ffc2e6;
-  --color-subtitle: #000028;
+  --color-subtitle: #353430;
   --color-text: #353430;
   --default-font-size: 18px;
   --cover-image: url(../images/cover-image-light.png);
-}
-
-.theme-light .page {
-  background-color: var(--background-color);
-  background-image: var(--cover-image);
-}
-
-.theme-light .header__intro-text {
-  color: var(--color-text);
-}
-
-.theme-light .decor-title {
-  color: var(--color-text);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--base-color);
-}
-
-.theme-light .content-section__heading {
-  color: var(--color-text);
-}
-
-.theme-light .decor-title__subtitle {
-  color: var(--color-text);
-}
-
-.theme-light .header__theme-menu-button_active {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  outline: 1px solid var(--base-color);
-}
-
-.theme-light
-  .header__theme-menu-item
-  > .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--base-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 1px solid rgb(50, 49, 45, 40%);
 }
 
 .theme-light .header__decor {
   display: none;
 }
 
-.theme-light .decor::before {
-  border-right: 1px solid var(--base-color);
-  border-top: 1px solid var(--base-color);
-}
-
-.theme-light .decor::after {
-  border-left: 1px solid var(--base-color);
-  border-bottom: 1px solid var(--base-color);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --background-color: #fff1f7;
+    --color-menu: #353430;
+    --color-hover-menu: rgb(50, 49, 45, 40%);
     --base-color: #353430;
+    --color-heading:#353430;
     --accent-color: #ff8dcb;
     --title-decor: #ffc2e6;
-    --color-subtitle: #000028;
+    --color-subtitle: #353430;
     --color-text: #353430;
     --default-font-size: 18px;
     --cover-image: url(../images/cover-image-light.png);
   }
-
-  .page {
-    background-color: var(--background-color);
-    background-image: var(--cover-image);
-  }
-
-  .header__intro-text {
-    color: var(--color-text);
-  }
-
-  .decor-title {
-    color: var(--color-text);
-  }
-
-  .header__theme-menu-button {
-    color: var(--base-color);
-  }
-
-  .content-section__heading {
-    color: var(--color-text);
-  }
-
-  .decor-title__subtitle {
-    color: var(--color-text);
-  }
-
-  .header__theme-menu-button_active {
-    /* Вам также нужно будет написать ряд подобных селекторов */
-    outline: 1px solid var(--base-color);
-  }
-
-  .header__theme-menu-item > .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--base-color);
-  }
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgb(50, 49, 45, 40%);
-  }
-
+  
   .header__decor {
     display: none;
-  }
-
-  .decor::before {
-    border-right: 1px solid var(--base-color);
-    border-top: 1px solid var(--base-color);
-  }
-  .decor::after {
-    border-left: 1px solid var(--base-color);
-    border-bottom: 1px solid var(--base-color);
   }
 }

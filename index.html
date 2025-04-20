@@ -10,8 +10,8 @@
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./images/mobile-icon.png">
     <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/light.css">
     <link rel="stylesheet" href="./styles/dark.css">
@@ -19,7 +19,7 @@
   </head>
   <body class="page">
     <header class="header decor">
-      <div class="header__decor">REC</div>
+      <span aria-hidden="true" class="header__decor">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -46,12 +46,12 @@
           </li>
         </ul>
       </nav>
-      <section class="header__intro">
+      <div class="header__intro">
         <h1 class="header__intro-title title-decor">no focus</h1>
         <p class="header__intro-text decor-title">
           Что делать, когда не можешь делать ничего <br> Или почему нам так сложно сконцентрироваться, особенно когда очень надо
         </p>
-      </section>
+      </div>
     </header>
     <main class="content">
       <section class="content-section reasons">
@@ -135,7 +135,7 @@
         <h3 class="content-section__subheading decor-title">5 простых (на самом деле не очень) советов</h3>
         <ul class="content-section__list">
           <li class="content-section__list-item item">
-            <h3 class="item__title decor-title__subtitle">Представьте небо и облака</h3>
+            <h4 class="item__title decor-title__subtitle">Представьте небо и облака</h4>
             <p class="item__text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах 
@@ -148,7 +148,7 @@
             </p>
           </li>
           <li class="content-section__list-item item">
-            <h3 class="item__title decor-title__subtitle">Включите музыку</h3>
+            <h4 class="item__title decor-title__subtitle">Включите музыку</h4>
             <p class="item__text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -157,7 +157,7 @@
             </p>
           </li>
           <li class="content-section__list-item item">
-            <h3 class="item__title decor-title__subtitle">Прогуляйтесь</h3>
+            <h4 class="item__title decor-title__subtitle">Прогуляйтесь</h4>
             <p class="item__text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
@@ -173,7 +173,7 @@
             </p>
           </li>
           <li class="content-section__list-item item">
-            <h3 class="item__title decor-title__subtitle">Хорошо ешьте</h3>
+            <h4 class="item__title decor-title__subtitle">Хорошо ешьте</h4>
             <p class="item__text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые
               препятствуют резким скачкам сахара в крови. Например, с высоким содержанием
@@ -182,7 +182,7 @@
             </p>
           </li>
           <li class="content-section__list-item item">
-            <h3 class="item__title decor-title__subtitle">Читайте</h3>
+            <h4 class="item__title decor-title__subtitle">Читайте</h4>
             <p class="item__text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или даже
@@ -236,8 +236,8 @@
           </figure>
       </section>
     </main>
-    <footer class="footer">
-      <h2 class="footer-tile decor title-decor">focus</h2>
+    <footer class="footer decor">
+      <h2 class="footer-tile title-decor">focus</h2>
     </footer>
   </body>
 </html>
